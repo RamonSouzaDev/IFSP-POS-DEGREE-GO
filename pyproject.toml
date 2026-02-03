@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ifsp-eco-compute"
+version = "1.0.0"
+description = "Sustainable Software Engineering API"
+authors = [
+  { name="Ramon Mendes", email="dwmom@hotmail.com" },
+]
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "scikit-learn>=1.4.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "pydantic>=2.6.0",
+    "pydantic-settings>=2.1.0",
+    "httpx>=0.26.0",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0.0",
+    "ruff>=0.2.0",
+]
