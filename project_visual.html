@@ -233,9 +233,54 @@
         </div>
 
         <div class="footer">
-            <div class="logo-ifsp">IFSP CAPIVARI</div>
+            <!-- Logo with Brilliant Lights Effect -->
+            <div class="logo-container">
+                <img src="ifsp-logo.jpg" alt="IFSP Logo" class="logo-img">
+            </div>
             <div style="color: #666;">Pós-Graduação 2026</div>
         </div>
+
+        <style>
+            .logo-container {
+                position: relative;
+                display: inline-block;
+            }
+
+            .logo-img {
+                height: 60px;
+                /* Adjust size as needed */
+                border-radius: 8px;
+                /* Slight rounding */
+                border: 2px solid white;
+                box-shadow:
+                    0 0 10px #fff,
+                    0 0 20px #fff,
+                    0 0 30px #00ff9d,
+                    0 0 40px #00ff9d,
+                    0 0 70px #00ff9d;
+                /* Neon Green Glow */
+                animation: pulseGlow 1.5s infinite alternate;
+            }
+
+            @keyframes pulseGlow {
+                from {
+                    box-shadow:
+                        0 0 10px #fff,
+                        0 0 20px #fff,
+                        0 0 30px #00ff9d,
+                        0 0 40px #00ff9d;
+                }
+
+                to {
+                    box-shadow:
+                        0 0 20px #fff,
+                        0 0 30px #00ff9d,
+                        0 0 40px #00ff9d,
+                        0 0 50px #00ff9d,
+                        0 0 80px #00ff9d;
+                }
+            }
+        </style>
 
         <div class="code-snippet">
             def estimate_emission(task):<br>
