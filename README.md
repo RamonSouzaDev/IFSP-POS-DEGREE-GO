@@ -2,7 +2,7 @@
 
 > **Sustainable Software Engineering** (Green Computing) API developed for the Pos-Graduação IFSP Capivari context.
 
-[![Green CI Pipeline](https://github.com/RamonSouzaDev/IFSP-POS-DEGREE-GO/actions/workflows/ci.yml/badge.svg)](https://github.com/RamonSouzaDev/IFSP-POS-DEGREE-GO/actions)
+[![EcoCompute CI](https://github.com/RamonSouzaDev/IFSP-POS-DEGREE-GO/actions/workflows/ifsp_ci.yml/badge.svg)](https://github.com/RamonSouzaDev/IFSP-POS-DEGREE-GO/actions)
 ![Python](https://img.shields.io/badge/Python-3.11-green)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109-blue)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
