@@ -61,3 +61,4 @@ This project is inspired by the **Pós-Graduação em Desenvolvimento Web e Mobi
 
 ---
 *Developed by Ramon Mendes - Software Engineer* 🦅
+Let's work together to build a sustainable future! 🌍
