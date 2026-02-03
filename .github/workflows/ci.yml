@@ -1,4 +1,4 @@
-name: Green CI Pipeline
+name: EcoCompute CI Pipeline
 
 on:
   push:
